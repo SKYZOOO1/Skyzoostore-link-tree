@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYZOOSTORE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            width: 100%;
+        }
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 25px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        .badge {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: block;
+            text-decoration: none;
+            padding: 14px 20px;
+            margin: 12px 0;
+            border-radius: 50px;
+            font-weight: bold;
+            text-align: center;
+            transition: transform 0.2s;
+            color: white;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .wa { background: #25D366; }
+        .ig { background: #E4405F; }
+        .dana { background: #0095D9; }
+        .gopay { background: #00AA6C; }
+        .qris { background: #FF6B00; }
+        .footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>🛍️ SKYZOOSTORE</h1>
+            <div class="badge">Toko Skytil Terpercaya ✅</div>
+            
+            <a href="https://wa.me/628561907398" class="btn wa">
+                💬 WhatsApp - 08561907398
+            </a>
+            
+            <a href="https://instagram.com/reallskyzoostore" class="btn ig">
+                📷 Instagram @reallskyzoostore
+            </a>
+            
+            <a href="https://link.dana.id/qr/628561907398" class="btn dana">
+                💙 Dana - 08561907398
+            </a>
+            
+            <a href="https://gopay.co.id/qr/628561907398" class="btn gopay">
+                💚 GoPay - 08561907398
+            </a>
+            
+            <div class="footer">
+                Tap tombol untuk langsung redirect
+            </div>
+        </div>
+    </div>
+</body>
+</html>
